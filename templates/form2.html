@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="static/css/syle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <h2>Form</h2>
+            <form action="{{ url_for('submit_form_2') }}" method="post">
+                <div class="form-group">
+                    <label for="learn">Code</label>
+                    <input type="text" id="learn" name="learn" placeholder="Enter your Code" required>
+                </div>
+                <div class="form-group">
+                    <label for="implementation">Describe you code</label>
+                    <textarea id="implementation" name="implementation"
+                        placeholder="Enter your implementation details" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
