@@ -267,63 +267,63 @@ current_dict = {}
 #         #     f' explain {current_topic} concept of {library} in a humorous and funny way also provide code snipits which covers this in detail make it as long as you want an mak the person advance in {current_topic} make it something like this {response_under}')
 #         # response = script.text
 #         # print(response)
-#         responsed = """## Array Indexing and Slicing: The NumPy Dance Party Extravaganza
-#
-# **Picture this:** Arrays, those vibrant data structures, are the life of the NumPy dance party! They groove and shimmy in perfect unison, each element knowing its place on the dance floor. But how do they navigate this organized chaos? It's all thanks to the magic of indexing and slicing!
-#
-# **Indexing: The Dance Floor Coordinates**
-#
-# Imagine each element in the array has a unique ID card, like a VIP pass to the party. This ID is its **index**, a numerical label that pinpoints its exact location on the dance floor.
-#
-# *   **One-dimensional arrays:** Think of them as a conga line of partygoers. Each person has a number, starting from 0 for the leader. To find the third dancer, you'd simply call out "index 2!" (Remember, Python starts counting from 0, not 1. Don't be that person who messes up the count and breaks the flow!)
-# *   **Multi-dimensional arrays:** Now we're talking about a dance floor with multiple levels, like a disco ball with a built-in balcony! Each element needs two coordinates: one for the level (the row) and one for their position within that level (the column). So, to find the dancer on the second level, third position, you'd say, "index (1, 2)!" (Again, starting from 0, because arrays are cool like that).
-#
-# **Code Snippet: Finding the Groove**
-#
-# ```python
-# import numpy as np
-#
-# # A conga line of party animals
-# party_line = np.array([10, 20, 30, 40, 50])
-#
-# # The third dancer shows their moves
-# print(party_line[2])  # Outputs: 30
-#
-# # A multi-level dance floor
-# disco_floor = np.array([[1, 2, 3], [4, 5, 6]])
-#
-# # The dancer on the second level, third position, strikes a pose
-# print(disco_floor[1, 2])  # Outputs: 6
-# ```
-#
-# **Slicing: Group Dance Moves**
-#
-# Sometimes, you want a whole crew to bust a move together. That's where slicing comes in! It's like calling out a section of the dance floor and having them perform a synchronized routine.
-#
-# *   **Basic slicing:** Imagine you want dancers 2 through 4 to do the limbo. You'd yell, "Indexes 2 to 4, get low!" In Python, it looks like this: `party_line[2:5]` (The last number is like a bouncer – it tells you where to stop, but doesn't join the party).
-# *   **Fancy footwork:** Slicing can get even fancier! You can use steps to skip dancers (like every second person for a polka), or negative numbers to start from the back of the line (perfect for a moonwalk).
-#
-# **Code Snippet: Choreographing the Party**
-#
-# ```python
-# # Limbo time!
-# limbo_crew = party_line[2:5]  # [30, 40, 50]
-#
-# # Polka dot party!
-# polka_dots = party_line[::2]  # [10, 30, 50]
-#
-# # Moonwalking backwards!
-# moonwalkers = party_line[-2:]  # [40, 50]
-# ```
-#
-# **Bonus Moves: Advanced Slicing and Fancy Indexing**
-#
-# For the true dance floor masters, there are even more advanced moves:
-#
-# *   **Slicing multi-dimensional arrays:** It's like calling out specific sections on each level of the dance floor. You can even grab diagonal lines of dancers with fancy tricks!
-# *   **Boolean masks:** Imagine spotlighting dancers based on their outfit colors. Boolean masks let you select elements based on conditions, like "all the dancers wearing red."
-#
-# **With these moves in your repertoire, you'll be the king or queen of the NumPy dance floor, orchestrating data with grace and style! Now go forth and make those arrays boogie!** """
+responsed = """## Array Indexing and Slicing: The NumPy Dance Party Extravaganza
+
+**Picture this:** Arrays, those vibrant data structures, are the life of the NumPy dance party! They groove and shimmy in perfect unison, each element knowing its place on the dance floor. But how do they navigate this organized chaos? It's all thanks to the magic of indexing and slicing!
+
+**Indexing: The Dance Floor Coordinates**
+
+Imagine each element in the array has a unique ID card, like a VIP pass to the party. This ID is its **index**, a numerical label that pinpoints its exact location on the dance floor.
+
+*   **One-dimensional arrays:** Think of them as a conga line of partygoers. Each person has a number, starting from 0 for the leader. To find the third dancer, you'd simply call out "index 2!" (Remember, Python starts counting from 0, not 1. Don't be that person who messes up the count and breaks the flow!)
+*   **Multi-dimensional arrays:** Now we're talking about a dance floor with multiple levels, like a disco ball with a built-in balcony! Each element needs two coordinates: one for the level (the row) and one for their position within that level (the column). So, to find the dancer on the second level, third position, you'd say, "index (1, 2)!" (Again, starting from 0, because arrays are cool like that).
+
+**Code Snippet: Finding the Groove**
+
+```python
+import numpy as np
+
+# A conga line of party animals
+party_line = np.array([10, 20, 30, 40, 50])
+
+# The third dancer shows their moves
+print(party_line[2])  # Outputs: 30
+
+# A multi-level dance floor
+disco_floor = np.array([[1, 2, 3], [4, 5, 6]])
+
+# The dancer on the second level, third position, strikes a pose
+print(disco_floor[1, 2])  # Outputs: 6
+```
+
+**Slicing: Group Dance Moves**
+
+Sometimes, you want a whole crew to bust a move together. That's where slicing comes in! It's like calling out a section of the dance floor and having them perform a synchronized routine.
+
+*   **Basic slicing:** Imagine you want dancers 2 through 4 to do the limbo. You'd yell, "Indexes 2 to 4, get low!" In Python, it looks like this: `party_line[2:5]` (The last number is like a bouncer – it tells you where to stop, but doesn't join the party).
+*   **Fancy footwork:** Slicing can get even fancier! You can use steps to skip dancers (like every second person for a polka), or negative numbers to start from the back of the line (perfect for a moonwalk).
+
+**Code Snippet: Choreographing the Party**
+
+```python
+# Limbo time!
+limbo_crew = party_line[2:5]  # [30, 40, 50]
+
+# Polka dot party!
+polka_dots = party_line[::2]  # [10, 30, 50]
+
+# Moonwalking backwards!
+moonwalkers = party_line[-2:]  # [40, 50]
+```
+
+**Bonus Moves: Advanced Slicing and Fancy Indexing**
+
+For the true dance floor masters, there are even more advanced moves:
+
+*   **Slicing multi-dimensional arrays:** It's like calling out specific sections on each level of the dance floor. You can even grab diagonal lines of dancers with fancy tricks!
+*   **Boolean masks:** Imagine spotlighting dancers based on their outfit colors. Boolean masks let you select elements based on conditions, like "all the dancers wearing red."
+
+**With these moves in your repertoire, you'll be the king or queen of the NumPy dance floor, orchestrating data with grace and style! Now go forth and make those arrays boogie!** """
 #         promt_1 = responsed + """ seperate this by sentences and give the response in a dictionary something like this(make sure to not use any variables):
 #               1: sentence_1,
 #               2: sentence_2,
@@ -353,39 +353,39 @@ current_dict = {}
 #
 #         sentence_dict = ast.literal_eval(extracted_code)
 #         print(sentence_dict)
-# sentence_dict = {
-# 1: "Arrays, those vibrant data structures, are the life of the NumPy dance party!",
-# 2: "They groove and shimmy in perfect unison, each element knowing its place on the dance floor.",
-# 3: "But how do they navigate this organized chaos?",
-# 4: "It's all thanks to the magic of indexing and slicing!",
-# 5: "Imagine each element in the array has a unique ID card, like a VIP pass to the party.",
-# 6: "This ID is its index, a numerical label that pinpoints its exact location on the dance floor.",
-# 7: "Think of them as a conga line of partygoers.",
-# 8: "Each person has a number, starting from 0 for the leader.",
-# 9: "To find the third dancer, you'd simply call out 'index 2!'",
-# 10: "(Remember, Python starts counting from 0, not 1.",
-# 11: "Don't be that person who messes up the count and breaks the flow!)",
-# 12: "Now we're talking about a dance floor with multiple levels, like a disco ball with a built-in balcony!",
-# 13: "Each element needs two coordinates: one for the level (the row) and one for their position within that level (the column).",
-# 14: "So, to find the dancer on the second level, third position, you'd say, 'index (1, 2)!'",
-# 15: "(Again, starting from 0, because arrays are cool like that).",
-# 16: "Sometimes, you want a whole crew to bust a move together.",
-# 17: "That's where slicing comes in!",
-# 18: "It's like calling out a section of the dance floor and having them perform a synchronized routine.",
-# 19: "Imagine you want dancers 2 through 4 to do the limbo.",
-# 20: "You'd yell, 'Indexes 2 to 4, get low!'",
-# 21: "In Python, it looks like this: `party_line[2:5]`",
-# 22: "(The last number is like a bouncer – it tells you where to stop, but doesn't join the party).",
-# 23: "Slicing can get even fancier!",
-# 24: "You can use steps to skip dancers (like every second person for a polka), or negative numbers to start from the back of the line (perfect for a moonwalk).",
-# 25: "For the true dance floor masters, there are even more advanced moves:",
-# 26: "It's like calling out specific sections on each level of the dance floor.",
-# 27: "You can even grab diagonal lines of dancers with fancy tricks!",
-# 28: "Imagine spotlighting dancers based on their outfit colors.",
-# 29: "Boolean masks let you select elements based on conditions, like 'all the dancers wearing red.'",
-# 30: "With these moves in your repertoire, you'll be the king or queen of the NumPy dance floor, orchestrating data with grace and style!",
-# 31: "Now go forth and make those arrays boogie!"
-# }
+sentence_dict = {
+1: "Arrays, those vibrant data structures, are the life of the NumPy dance party!",
+2: "They groove and shimmy in perfect unison, each element knowing its place on the dance floor.",
+3: "But how do they navigate this organized chaos?",
+4: "It's all thanks to the magic of indexing and slicing!",
+5: "Imagine each element in the array has a unique ID card, like a VIP pass to the party.",
+6: "This ID is its index, a numerical label that pinpoints its exact location on the dance floor.",
+7: "Think of them as a conga line of partygoers.",
+8: "Each person has a number, starting from 0 for the leader.",
+9: "To find the third dancer, you'd simply call out 'index 2!'",
+10: "(Remember, Python starts counting from 0, not 1.",
+11: "Don't be that person who messes up the count and breaks the flow!)",
+12: "Now we're talking about a dance floor with multiple levels, like a disco ball with a built-in balcony!",
+13: "Each element needs two coordinates: one for the level (the row) and one for their position within that level (the column).",
+14: "So, to find the dancer on the second level, third position, you'd say, 'index (1, 2)!'",
+15: "(Again, starting from 0, because arrays are cool like that).",
+16: "Sometimes, you want a whole crew to bust a move together.",
+17: "That's where slicing comes in!",
+18: "It's like calling out a section of the dance floor and having them perform a synchronized routine.",
+19: "Imagine you want dancers 2 through 4 to do the limbo.",
+20: "You'd yell, 'Indexes 2 to 4, get low!'",
+21: "In Python, it looks like this: `party_line[2:5]`",
+22: "(The last number is like a bouncer – it tells you where to stop, but doesn't join the party).",
+23: "Slicing can get even fancier!",
+24: "You can use steps to skip dancers (like every second person for a polka), or negative numbers to start from the back of the line (perfect for a moonwalk).",
+25: "For the true dance floor masters, there are even more advanced moves:",
+26: "It's like calling out specific sections on each level of the dance floor.",
+27: "You can even grab diagonal lines of dancers with fancy tricks!",
+28: "Imagine spotlighting dancers based on their outfit colors.",
+29: "Boolean masks let you select elements based on conditions, like 'all the dancers wearing red.'",
+30: "With these moves in your repertoire, you'll be the king or queen of the NumPy dance floor, orchestrating data with grace and style!",
+31: "Now go forth and make those arrays boogie!"
+}
 # images = f"""
 # In the Script, in ach sentence list which gif or image can be used (try to specicify in which part of the sentece)(try to cove each and every sentence where a gif or an image can be added):
 # In the Use GIF , give the search query fr it try
@@ -443,8 +443,50 @@ for keys, value in resources.items():
             account_dictionary[keys] = "no"
 
 print(account_dictionary)
+example_response = {
+    "Indroduction":{
+        "sentence_range": 4,
+        "code_snippet": "no"#TILL 4
+    },
+    "Array Indexing": {
+        "sentence_range": 15,
+        "code_snippet": "Yes"
+    },
+    "Array Slicing": {
+        "sentence_range": 24,
+        "code_snippet": "yes"
+    },
+    "Advanced Slicing & Fancy Indexing": {
+
+        "sentence_range": 29,
+        "code_snippet": "no"},
+
+    "Conclusion": {
+        "sentence_range": 31,
+        "code_snippet": "no"
+}
+        # No code snippet provided for this section
+    }
+
+final_overview = model.generate_content(
+  f'in this script {responsed}, these are the sentences i extracted {sentence_dict} can you list all the topics and the code snipets in a python dictionary with no variable asiged to it in the response as there are further proceses linked to this response dictionary and as its vale tell the range of sentences this is being talked about like till what sentence  setences, wheareas in the code snippet one just tell if it is being used make sure to add introduction and conclutuin imp: assing no variable to the dictionary you made {example_response}')
+print(final_overview.text)
+pattern = r"```python(.*?)```"
+print("we are here")
+import re
+# Using re.findall to find all matches of the pattern in the string
+matches = re.findall(pattern, final_overview.text, re.DOTALL)
+extracted_code = final_overview.text
+# Extracted code snippet
+if matches:
+    extracted_code = matches[0].strip()
 
 
+
+    final_overviwe_dict = extracted_code
+    print(extracted_code)
+final_overviwe_dict = ast.literal_eval(extracted_code)
+print(final_overviwe_dict)
 # Print the dictionary
 # print(num_py_concepts)
 
